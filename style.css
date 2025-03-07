@@ -1,0 +1,46 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #ff6699;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #ff4d94;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff1a75;
+}
+
+.hidden {
+    display: none;
+}
+
+.message-box {
+    margin-top: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #ff6699;
+    padding: 5px;
+}
